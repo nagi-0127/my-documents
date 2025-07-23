@@ -7,7 +7,7 @@
         {
             "type": "node-terminal",
             "name": "mkdocs serve",
-            "command": "mkdocs serve",
+            "command": "mkdocs serve --dev-addr=0.0.0.0:6006",
             "request": "launch",
             "cwd": "${workspaceFolder}/my-dev-docs"
         }
