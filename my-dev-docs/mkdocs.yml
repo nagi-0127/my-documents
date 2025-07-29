@@ -9,3 +9,6 @@ nav:
   - top: index.md
   - PHP:
       - debug tool: PHP/debug.md
+      - Laravel:
+          - コマンド: PHP/Laravel/command_cheat_sheet.md
+          - 参考リンク: PHP/Laravel/links.md
