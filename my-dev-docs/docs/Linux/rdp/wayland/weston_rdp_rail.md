@@ -120,6 +120,19 @@ CMD [ "/opt/rdprail/bin/weston" ]
 
 ```
 
+## RAIL設定
+
+* RDP接続側(.rdpファイルに追記)で起動するアプリケーションを指定する。
+
+```
+# アプリケーションモードで接続
+remoteapplicationmode:i:1
+remoteapplicationname:s:hoge
+# 接続先で起動したいアプリケーションの起動コマンドを設定
+remoteapplicationprogram:s:/opt/rdprail/bin/weston-info
+```
+
+
 ## TODO 
 
 * pulseaudio組み込み
